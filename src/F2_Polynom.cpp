@@ -177,7 +177,7 @@ std::vector<F2_polynom> F2_polynom::division(const F2_polynom &i_dividende_polyn
     return result;
 }
 
-F2_polynom F2_polynom::compute_derivation(const F2_polynom &i_polynom){
+F2_polynom F2_polynom::derivation(const F2_polynom &i_polynom){
     /*
      Function which computes the derivate of a polynom.
      */
@@ -199,7 +199,7 @@ F2_polynom F2_polynom::compute_derivation(const F2_polynom &i_polynom){
 
 }
 
-F2_polynom F2_polynom::compute_square_root(const F2_polynom &i_polynom){
+F2_polynom F2_polynom::square_root(const F2_polynom &i_polynom){
     /*
      Function which computes the square root of a polynom.
      */
@@ -218,3 +218,4 @@ F2_polynom F2_polynom::compute_square_root(const F2_polynom &i_polynom){
     return F2_polynom(square_coeffs);
 
 }
+
