@@ -26,8 +26,11 @@ public:
     const void print();
     
     static F2_polynom addition(const F2_polynom &i_polynom_left,const F2_polynom &i_polynom_right);
-    
+    static F2_polynom substraction(const F2_polynom &i_polynom_left,const F2_polynom &i_polynom_right);
     static F2_polynom multiplication(const F2_polynom &i_polynom_left,const F2_polynom &i_polynom_right);
+    static std::vector<F2_polynom> division(const F2_polynom &i_dividende_polynom, const F2_polynom &i_diviseur_polynom);
+    static F2_polynom derivation(const F2_polynom &i_polynom);
+    static F2_polynom quare_root(const F2_polynom &i_polynom);
     
 };
     
